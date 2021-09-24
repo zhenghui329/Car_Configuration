@@ -1,0 +1,137 @@
+/*
+This is the css settings of the servlet and jsp for car configuration
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Vollkorn|Cairo');
+
+/* structure */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body{
+  background-color: #7EB6C5;
+}
+
+/* set main box */
+.main {
+  background-color: white;
+  margin:0 auto;
+  padding:0 auto;
+  height: 100%;
+  width: 60%;
+/* add box shadow */
+  -webkit-box-shadow: 2px 0px 11px -1px rgba(219,219,219,1), -2px 0px 11px -1px rgba(219,219,219,1);
+  -moz-box-shadow: 2px 0px 11px -1px rgba(219,219,219,1), -2px 0px 11px -1px rgba(219,219,219,1);
+  box-shadow: 2px 0px 11px -1px rgba(219,219,219,1), -2px 0px 11px -1px rgba(219,219,219,1);
+}
+
+/* set header box */
+.header {
+  padding:40px 0 10px 0;
+  border-bottom:1px solid #BABABA; 
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+  box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+}
+
+/* set middle box */
+.middle {
+  padding:20px 0;
+  maigin:0;
+  border-bottom:1px solid #BABABA; 
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+  box-shadow: 0px 2px 7px 0px rgba(186,186,186,0.67);
+}
+
+/* space between middle and footer */
+.space {
+	height:200px;
+}
+
+footer {
+  padding:5px;
+  font: 14px 'Cairo';
+  height:50px;
+}
+
+
+/* details */
+
+hr {
+ height: 2px;
+ background-color: black;
+ border:none;
+}
+
+h1 {
+  font: 40px 'Vollkorn', cursive;
+  margin:0 50px;
+  /*   border:1px solid black;  */
+}
+
+h4 {
+  margin:20px 0;
+  font: 18px 'Vollkorn';
+/*   border:1px solid black;  */
+}
+
+label {
+  font: bold 20px 'Cairo', cursive;
+  margin:10px 0;
+}
+
+select {
+  padding:5px;
+  font: 18px 'Cairo';
+}
+
+button {
+  padding:5px 10px;
+  margin:5px;
+  background-color: black;
+  color: white;
+  border-radius: 1px;
+  font-size: 14px;
+}
+
+button:focus {
+  background-color: #FFC300;
+}
+
+form {
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  margin: 10px auto;
+}
+
+table {
+  font:18px 'Cairo';
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: white;
+}
+
+th{
+	font:bold 20px 'Cairo';
+	background-color: #A2CEE2;
+}
+
+td {
+  border:1px solid #9E9E9E;
+  padding:5px 8px;
+}
+
+tfoot{
+  font:bold 18px 'Cairo';
+  color: #216C89;
+}
+
+input:checked + label {
+  border-bottom: 2px dashed black;
+}

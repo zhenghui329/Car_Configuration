@@ -1,0 +1,107 @@
+
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+1
+Sending 1 to server ...
+
+Received server response ...
+Upload a file to create an Automobile
+Response to server:
+src/FW_ZTW_B.txt
+Sending Focus Wagon ZTW_B
+35000
+Ford
+2008
+5
+optSet,Color,10
+Fort Knox Gold Clearcoat Metallic,0
+Liquid Grey Clearcoat Metallic,0
+Infra-Red Clearcoat,0
+Grabber Green Clearcoat Metallic,0
+Sangria Red Clearcoat Metallic,0
+French Blue Clearcoat Metallic,0
+Twilight Blue Clearcoat Metallic,0
+CD Silver Clearcoat Metallic,0
+Pitch Black Clearcoat,0
+Cloud 9 White Clearcoat,0
+optSet,Transmission,2
+Automatic,0
+Manual,-815
+optSet,Brakes/Traction Control,3
+Standard,0
+ABS,400
+ABS with Advance Trac,1625
+optSet,Side Impact Air Bags,2
+present,350
+not present,0
+optSet,Power Moonroof,2
+present,595
+not present,0 to server ...
+
+Received server response ...
+Automobile object successfully added to database
+Press any key to return to main menu, 0 to terminate.
+Response to server:
+
+Sending  to server ...
+
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+1
+Sending 1 to server ...
+
+Received server response ...
+Upload a file to create an Automobile
+Response to server:
+src/Ford_2003_Focus Wagon ZTW.properties
+Sending {OptionValue1j=Cloud 9 White Clearcoat, OptionValue1i=Pitch Black Clearcoat, CarYear=2003, OptionValue1h=CD Silver Clearcoat Metallic, OptionValue1g=Twilight Blue Clearcoat Metallic, OptionValue1f=French Blue Clearcoat Metallic, Option5=Power Moonroof, OptionValue1e=Sangria Red Clearcoat Metallic, Option4=Side Impact Air Bags, OptionValue1d=Grabber Green Clearcoat Metallic, Option1Size=10, OptionValue1c=Infra-Red Clearcoat, Option3=Brakes/Traction Control, OptionValue1b=Liquid Grey Clearcoat Metallic, Option2=Transmission, OptionValue1a=Fort Knox Gold Clearcoat Metallic, Option1=Color, OptionValue4b=not present, OptionValue4a=present, CarModel=Focus Wagon ZTW, OptionPrice1j=0, OptionPrice1i=0, OptionPrice1h=0, OptionPrice1g=0, Option4Size=2, OptionPrice1f=0, OptionPrice1e=0, OptionPrice1d=0, OptionPrice1c=0, OptionPrice1b=0, OptionPrice1a=0, OptionPrice4b=0, OptionPrice4a=350, OptionValue3c=ABS with Advance Trac, OptionValue3b=ABS, CarMake=Ford, OptionValue3a=Standard, BasePrice=18445, Option3Size=3, OptionPrice3c=1625, OptionPrice3b=400, OptionPrice3a=0, OptionSetSize=5, OptionValue2b=Manual, OptionValue2a=Automatic, OptionValue5b=not present, OptionValue5a=present, Option2Size=2, OptionPrice2b=-815, Option5Size=2, OptionPrice2a=0, OptionPrice5b=0, OptionPrice5a=595} to server ...
+
+Received server response ...
+Automobile object successfully added to database
+Press any key to return to main menu, 0 to terminate.
+Response to server:
+
+Sending  to server ...
+
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+1
+Sending 1 to server ...
+
+Received server response ...
+Upload a file to create an Automobile
+Response to server:
+src/Ford_2009_Focus Wagon.properties
+Sending {CarYear=2009, Option5=Power Moonroof, OptionValue1e=Sangria Red Clearcoat Metallic, OptionValue1d=Grabber Green Clearcoat Metallic, Option1Size=5, Option4=Side Impact Air Bags, OptionValue1c=Infra-Red Clearcoat, Option3=Brakes/Traction Control, OptionValue1b=Liquid Grey Clearcoat Metallic, Option2=Transmission, OptionValue1a=Fort Knox Gold Clearcoat Metallic, Option1=Color, OptionValue4b=not present, OptionValue4a=present, CarModel=Focus Wagon, Option4Size=2, OptionPrice1e=0, OptionPrice1d=0, OptionPrice1c=0, OptionPrice1b=0, OptionPrice1a=0, OptionPrice4b=0, OptionPrice4a=350, OptionValue3c=ABS with Advance Trac, CarMake=Ford, OptionValue3b=ABS, OptionValue3a=Standard, BasePrice=24000, Option3Size=3, OptionPrice3c=1625, OptionPrice3b=400, OptionPrice3a=0, OptionSetSize=5, OptionValue2b=Manual, OptionValue2a=Automatic, OptionValue5b=not present, OptionValue5a=present, Option2Size=2, OptionPrice2b=-815, Option5Size=2, OptionPrice2a=0, OptionPrice5b=0, OptionPrice5a=595} to server ...
+
+Received server response ...
+Automobile object successfully added to database
+Press any key to return to main menu, 0 to terminate.
+Response to server:
+0
+Sending 0 to server ...
+
+Closing client input stream ...
+Closing client output stream ...
+Closing client console input stream ...
+Closing client socket ...
+
+Process finished with exit code 0

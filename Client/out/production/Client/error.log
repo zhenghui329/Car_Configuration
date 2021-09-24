@@ -1,0 +1,29 @@
+2019/05/03 19:13:45
+AutoException [ error No.1 Missing model name ]
+	at util.FileIO.buildAutoObject(FileIO.java:22)
+	at adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:11)
+	at driver.Driver2.main(Driver2.java:41)
+2019/05/03 19:13:45
+AutoException [ error No.101 Wrong format for base price ]
+	at util.FileIO.buildAutoObject(FileIO.java:44)
+	at adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:11)
+	at driver.Driver2.main(Driver2.java:41)
+2019/05/03 19:13:47
+AutoException [ error No.4 Missing option price ]
+	at util.FileIO.buildAutoObject(FileIO.java:106)
+	at adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:11)
+	at driver.Driver2.main(Driver2.java:41)
+2019/05/03 19:13:47
+AutoException [ error No.5 Missing option(s): size does not match data ]
+	at util.FileIO.buildAutoObject(FileIO.java:74)
+	at adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:11)
+	at driver.Driver2.main(Driver2.java:41)
+2019/05/03 19:13:47
+AutoException [ error No.6 Missing optionSet(s): size does not match the data ]
+	at util.FileIO.buildAutoObject(FileIO.java:120)
+	at adapter.ProxyAutomobile.buildAuto(ProxyAutomobile.java:11)
+	at driver.Driver2.main(Driver2.java:41)
+2019/05/03 19:14:44
+AutoException [ error No.402 null ]
+	at adapter.ProxyAutomobile.fix(ProxyAutomobile.java:34)
+	at driver.Driver2.main(Driver2.java:58)

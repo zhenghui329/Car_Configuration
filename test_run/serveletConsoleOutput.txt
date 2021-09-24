@@ -1,0 +1,218 @@
+/* Tomcat Server starts up from Eclipse */
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.94
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Apr 10 2019 16:56:40 UTC
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.94.0
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.14.4
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_40-b27
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/lizhenghui/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Library/tomcat7
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/lizhenghui/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Library/tomcat7
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dwtp.deploy=/Users/lizhenghui/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Library/tomcat7/endorsed
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dfile.encoding=UTF-8
+六月 22, 2019 10:38:55 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/lizhenghui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+六月 22, 2019 10:38:55 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+六月 22, 2019 10:38:55 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+六月 22, 2019 10:38:55 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 825 ms
+六月 22, 2019 10:38:55 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 22, 2019 10:38:55 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.94
+六月 22, 2019 10:38:56 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+六月 22, 2019 10:38:56 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+六月 22, 2019 10:38:56 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 702 ms
+
+/* The second page attempts to set connection without */
+/* jumping from the first page                        */
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+Sending 4 to server ...
+Sending  to server ...
+Closing client input stream ...
+Closing client output stream ...
+Closing client socket ...
+
+
+
+/* The third page attempts to set connection without */
+/* jumping from the first and second page            */
+
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+Sending 5 to server ...
+Sending ,null, to server ...
+Closing client input stream ...
+Closing client output stream ...
+Closing client socket ...
+
+
+/* Enter from the first page to the third page */
+
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+Sending 3 to server ...
+Closing client input stream ...
+Closing client output stream ...
+Closing client socket ...
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+Sending 4 to server ...
+Sending Focus Wagon ZTW to server ...
+Model Name: Focus Wagon ZTW
+Base Price: $18445.0
+Make: Ford
+Year: 2003
+---------------------
+Color:
+Fort Knox Gold Clearcoat Metallic              $0.0
+Liquid Grey Clearcoat Metallic                 $0.0
+Infra-Red Clearcoat                            $0.0
+Grabber Green Clearcoat Metallic               $0.0
+Sangria Red Clearcoat Metallic                 $0.0
+French Blue Clearcoat Metallic                 $0.0
+Twilight Blue Clearcoat Metallic               $0.0
+CD Silver Clearcoat Metallic                   $0.0
+Pitch Black Clearcoat                          $0.0
+Cloud 9 White Clearcoat                        $0.0
+[Choice] no choice
+
+Transmission:
+Automatic                                      $0.0
+Manual                                      -$815.0
+[Choice] no choice
+
+Brakes/Traction Control:
+Standard                                       $0.0
+ABS                                          $400.0
+ABS with Advance Trac                       $1625.0
+[Choice] no choice
+
+Side Impact Air Bags:
+present                                      $350.0
+not present                                    $0.0
+[Choice] no choice
+
+Power Moonroof:
+present                                      $595.0
+not present                                    $0.0
+[Choice] no choice
+
+
+Closing client input stream ...
+Closing client output stream ...
+Closing client socket ...
+Connecting to host ...
+Connected to host, creating object streams ...
+Communicating with host ...
+Received server response ...
+
+Enter 1 to upload a new Automobile
+Enter 2 to configure an Automobile
+Enter 0 to terminate connection
+
+Response to server:
+Sending 5 to server ...
+Sending Focus Wagon ZTW,Infra-Red Clearcoat,Manual,ABS with Advance Trac,not present,present, to server ...
+Model Name: Focus Wagon ZTW
+Base Price: $18445.0
+Make: Ford
+Year: 2003
+---------------------
+Color:
+Fort Knox Gold Clearcoat Metallic              $0.0
+Liquid Grey Clearcoat Metallic                 $0.0
+Infra-Red Clearcoat                            $0.0
+Grabber Green Clearcoat Metallic               $0.0
+Sangria Red Clearcoat Metallic                 $0.0
+French Blue Clearcoat Metallic                 $0.0
+Twilight Blue Clearcoat Metallic               $0.0
+CD Silver Clearcoat Metallic                   $0.0
+Pitch Black Clearcoat                          $0.0
+Cloud 9 White Clearcoat                        $0.0
+[Choice] Infra-Red Clearcoat
+
+Transmission:
+Automatic                                      $0.0
+Manual                                      -$815.0
+[Choice] Manual
+
+Brakes/Traction Control:
+Standard                                       $0.0
+ABS                                          $400.0
+ABS with Advance Trac                       $1625.0
+[Choice] ABS with Advance Trac
+
+Side Impact Air Bags:
+present                                      $350.0
+not present                                    $0.0
+[Choice] not present
+
+Power Moonroof:
+present                                      $595.0
+not present                                    $0.0
+[Choice] present
+
+
+Closing client input stream ...
+Closing client output stream ...
+Closing client socket ...
